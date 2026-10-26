@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background: #f3f5f9;
+  color: #1f2937;
+  font-family: Inter, 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+.ant-card {
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
+}
+
+.ant-card-head {
+  background: #f8fafc;
+}
+
+.ant-statistic-title {
+  color: #475569;
+}
+
+.ant-alert {
+  border-radius: 10px;
+}
+
+.ant-select,
+.ant-input,
+.ant-btn {
+  border-radius: 8px;
+}
